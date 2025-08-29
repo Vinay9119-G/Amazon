@@ -10,6 +10,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-logo {
@@ -18,7 +19,7 @@
 }
 
 .logo {
-    background-image: url(Amazon_logo4.jpg);
+    background-image: url(Amazon_logo06.jpg);
     background-size: cover;
     height: 50px;
     width: 100%;
@@ -54,6 +55,7 @@
 
 .nav-search {
     display: flex;
+    justify-content: space-evenly;
    background-color: pink;
    width: 620px;
    height: 40px;
@@ -62,8 +64,38 @@
 
 .search-select {
    background-color: #f3f3f3;
-   width: 5px;
+   width: 50px;
    text-align: center;
-   border-radius: 5px;
-   
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   color: #0f1111;
+}
+
+/* Box04 */
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    
 }
